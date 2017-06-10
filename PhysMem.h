@@ -1,3 +1,6 @@
+#ifndef PHYSMEM_H
+#define PHYSMEM_H
+
 #include <stdlib.h>
 #include <iostream>
 
@@ -18,3 +21,4 @@ public:
 		void operator=(PhysMem const&) = delete;
 		int* GetFrame(int frameNumber);
 };
+#endif
